@@ -1,0 +1,14 @@
+--- This file is part of LuaDist project
+
+name = "lmd5"
+version = "0.0.20110324"
+
+desc = "A message digest library for Lua based on OpenSSL: MD2, MD4, MD5, SHA1, SHA2, RIPEMD160, MDC2."
+author = "Luiz Henrique de Figueiredo"
+url = "http://www.tecgraf.puc-rio.br/~lhf/ftp/lua/#lmd5"
+license = "public domain"
+maintainer = "David Manura"
+
+depends = {
+	"lua ~> 5.1"
+}
